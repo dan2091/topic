@@ -12,6 +12,8 @@ class Posts extends Model
 
     public function getTitleAttribute($value){
        return ucfirst($value); //Pone la primera letra en mayusculas.
+       str_replace('hey','suck it',$other_uis);
+       echo "sadasd";
     }
 
     public function geTestAttribute(){
