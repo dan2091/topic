@@ -17,7 +17,7 @@ Route::get('setlocale/{locale}', function ($locale) {
     return redirect()->back();
 });
 
-Route::resource('/config/usuarios','UsersController');
+Route::resource('/config/usuarios','UsuariosController');
 
 Route::get('/', function () {
 	return redirect('login');

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(UsuariosTableSeeder::class);
+        $this->call(ArticulosTableSeeder::class);
+        /*DB::table('articulos')->insert([
+            'titulo' => str_random(50),
+            'cuerpo' => str_random(200),
+        ]);*/
     }
 }

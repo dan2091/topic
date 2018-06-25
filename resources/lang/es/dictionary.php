@@ -21,4 +21,5 @@ return [
     'vehicle' => 'Veh&iacute;culo|Veh&iacute;culos',
     'list' => 'Listado|Listados',
     'user_description' => 'Usuarios del sistema',
+    'welcome' => 'Bienvenido',
 ];
