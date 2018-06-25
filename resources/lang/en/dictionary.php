@@ -21,5 +21,4 @@ return [
     'vehicle' => 'Vehicle|Vehicles',
     'list' => 'List|Lists',
     'user_description' => 'System users',
-    'welcome' => 'Welcome',
 ];

@@ -59,6 +59,10 @@
                                                 </td>
                                             </tr>
                                         @endforeach
+                                    @else
+                                        <tr>
+                                            <td colspan='3'>No hay resultados para mostrar</td>
+                                        </tr>
                                     @endif
                                 </tbody>
                             </table>
