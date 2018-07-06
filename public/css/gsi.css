@@ -1,0 +1,32 @@
+span.tbl_opc
+{ color:#D9534F;
+  /*position:absolute;*/
+  margin-top:-5px;
+  font-size: 1.5em;
+  -webkit-transition: all 0.1s;
+  -moz-transition:    all 0.1s;
+  -ms-transition:     all 0.1s;
+  -o-transition:      all 0.1s;
+  transition:         all 0.1s;
+  cursor:			  pointer;
+}
+span.tbl_opc:hover
+{ color:black;
+  font-size: 1.7em;
+  margin-top:-7px;
+  margin-left:-1px;
+}
+span.tbl_opc:active
+{ font-size: 1.7em;
+  margin-top:-7px;
+  margin-left:-1px;
+}
+span.tbl_opc_editar
+{ color:#d28f30;
+}
+span.tbl_opc_del
+{ color:#D9534F;
+}
+span.tbl_opc_busq
+{ color:#337ab7;
+}
